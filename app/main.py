@@ -19,6 +19,7 @@ def cinema_visit(customers: list, hall_number: int, cleaner: str, movie: str) ->
 
     cleaner.clean_hall(hall_number=hall_number)
 
+
 if __name__ == "__main__":
     customers = [
         {"name": "Bob", "food": "Coca-cola"},
